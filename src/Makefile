@@ -19,6 +19,6 @@ $(objects) : %.o : %.c
 		$(CC) -c $(CFLAGS) $<
 
 clean :
-		rm -f *.o $(target) ../build
+		rm -rf *.o ../build
 
 .PHONY : clean reloc
