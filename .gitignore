@@ -1,0 +1,5 @@
+src/*.swo
+src/*.swp
+src/*.swg
+src/*.o
+build
